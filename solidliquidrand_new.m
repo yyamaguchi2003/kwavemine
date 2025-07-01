@@ -9,7 +9,7 @@ dy = 0.25*config.grid.dy;
 kgrid = kWaveGrid(Nx, dx, Ny, dy);
 save_path = config.save_path;
 t_end = config.simulation.t_end
-CFL = 0.5*config.simulation.CFL
+CFL = 0.4*config.simulation.CFL
 
 % -------------------------------------------------------------------------
 % 3) 媒質パラメータ
